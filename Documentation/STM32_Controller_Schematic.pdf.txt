@@ -1,0 +1,3 @@
+Plotted to '/Users/simon/Downloads/STM32_Industrial_Controller_Portfolio_RevD/KiCad/STM32_Industrial_Controller.pdf'.
+
+Info: Done.

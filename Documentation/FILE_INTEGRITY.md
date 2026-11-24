@@ -1,0 +1,10 @@
+# Preserved design-file hashes
+
+The following original Revision D files are unchanged in this documentation edition:
+
+```text
+KiCad/STM32_Industrial_Controller.kicad_sch: SHA256 378e0ee5af82ee5a26c27ac1b201991b6b9c1e3c4178282337272ee22f515fdd
+KiCad/STM32_Industrial_Controller.kicad_pcb: SHA256 f003f8560f25a93a38ebb96882775b3567392c67f84fb4a1cb235f753a076a13
+Manufacturing/DRC_RevD.rpt: SHA256 c7802301316ecb29f3889f6c862b28ae2705246ea42a9d018e153714bc5a788c
+Manufacturing/ERC_RevD.rpt: SHA256 f2aae046cf16e3465a22029161aef9a85f915990b48bce0f1995d3fbf7d0d354
+```

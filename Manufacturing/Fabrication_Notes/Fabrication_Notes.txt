@@ -1,0 +1,12 @@
+STM32 Industrial Controller - Fabrication Notes - Revision D
+
+Board: 218.0 mm x 146.0 mm, 1.60 mm finished thickness, four copper layers.
+Stackup: L1 signal/components, L2 solid GND reference, L3 VIN_PROT power plane, L4 signal.
+Copper: 35 um finished outer and inner layers. FR-4, Tg >= 150 C.
+Minimum design rule: 0.15 mm trace, 0.10 mm copper spacing; 0.20 mm finished via drill, 0.40 mm pad.
+Finish: lead-free HASL or ENIG. Solder mask both sides, green. White legend both sides.
+Controlled impedance is not required. Route A/B as a coupled pair in any manual layout revision.
+Mounting holes H1-H4: 3.2 mm NPTH. Board outline tolerance +/-0.20 mm.
+Assembly: IPC-A-610 Class 2 target. No-clean lead-free process. Observe polarity and pin 1.
+Do not fit jumpers JP2, JP3, JP4 by default; fit shunts only at one bus endpoint as required.
+This is an engineering demonstration platform and is not safety-certified.
