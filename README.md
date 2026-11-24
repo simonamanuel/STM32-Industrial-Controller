@@ -4,6 +4,20 @@
 
 This repository contains an **AI-assisted** electronic design project built around an STM32F103C8T6 microcontroller, with a four-layer KiCad PCB, mixed-signal sensing, low-voltage power conversion, wired communications, and two switched DC actuator channels. It showcases design-file organization, schematic/PCB review, bill-of-materials management, and documented limitations.
 
+## PCB Design Gallery
+
+### PCB Layout
+![STM32 Industrial Controller PCB Layout](Images/STM32_Controller_PCB_Layout.png)
+
+### 3D PCB View
+![STM32 Industrial Controller 3D View](Images/STM32_Industrial_Controller%20Top%20View.png)
+
+### Front Copper Routing
+![STM32 Industrial Controller Front Copper](Images/STM32_Industrial_Controller-F_Cu.svg)
+
+### Electrical Schematic
+[View Schematic PDF](KiCad/STM32_Industrial_Controller.pdf)
+
 ## At a glance
 
 | Aspect | Revision D design target / supplied evidence |
