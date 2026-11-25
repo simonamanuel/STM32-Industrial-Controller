@@ -60,7 +60,7 @@ The block diagram summarizes intended functions; it does not replace the authori
 - [`Documentation/DESIGN_SUMMARY.md`](Documentation/DESIGN_SUMMARY.md) — architecture and design assumptions.
 - [`Documentation/VERIFICATION_STATUS.md`](Documentation/VERIFICATION_STATUS.md) — what has and has not been validated.
 - [`Documentation/OPEN_DESIGN_ITEMS.md`](Documentation/OPEN_DESIGN_ITEMS.md) — unresolved concerns and disclosure statements.
-- [`Documentation/PORTFOLIO_PRESENTATION.md`](Documentation/PORTFOLIO_PRESENTATION.md) — GitHub and resume wording with attribution guidance.
+- [`Documentation/PORTFOLIO_PRESENTATION.md`](Documentation/PORTFOLIO_PRESENTATION.md) — engineering scope, design deliverables, and verification status.
 - [`Documentation/FINISHING_CHECKLIST.md`](Documentation/FINISHING_CHECKLIST.md) — minimal remaining steps for a CAD-only portfolio.
 - [`Documentation/Original_Revision_D_README.md`](Documentation/Original_Revision_D_README.md) — README supplied with original Revision D archive, preserved unchanged.
 
@@ -80,6 +80,8 @@ The **provided** ERC and DRC reports show clean CAD rule checks. Those checks do
 
 **This design is not a safety controller, not a certified industrial product, and not a physical prototype.**
 
-## Attribution and interview use
+## Project objectives
 
-The board files were created and refined with AI assistance and iterative human review. Describe contributions accurately, explain the underlying circuits, and do not suggest independent end-to-end hardware engineering work, measured performance, or firmware completion that was not actually performed. See [`PORTFOLIO_PRESENTATION.md`](Documentation/PORTFOLIO_PRESENTATION.md).
+This project explores the design and integration of embedded control hardware, mixed-signal sensor interfaces, industrial communication protocols, protected power distribution, and actuator-control circuitry.
+
+Future development will focus on resolving outstanding electrical design considerations, PCB fabrication, hardware bring-up, embedded firmware development, and experimental performance verification.
