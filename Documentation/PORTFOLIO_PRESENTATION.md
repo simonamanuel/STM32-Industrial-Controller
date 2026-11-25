@@ -1,34 +1,56 @@
-# Portfolio presentation and resume wording
 
-## GitHub short description
+# Engineering Portfolio Overview
 
-> AI-assisted four-layer STM32 mixed-signal controller PCB design in KiCad 10, with analog sensor inputs, RS-485, 5 V/3.3 V regulation, protected power distribution, and dual MOSFET output stages. CAD-stage design only; includes native files, supplied ERC/DRC reports, BOM, and disclosed unresolved design-review items.
+## Project Description
 
-## Short portfolio paragraph
+A four-layer STM32F103C8T6 industrial controller PCB
+developed in KiCad, incorporating mixed-signal sensor
+interfaces, industrial communications, regulated power
+distribution, and DC actuator-control circuitry.
 
-> Created and reviewed a four-layer KiCad design study for a low-voltage STM32 industrial controller with two conditioned analog inputs, RS-485 communications, low-side actuator channels, and regulated power distribution. Organized the editable schematic/PCB, BOM, and fabrication outputs, and used design reviews to identify limitations that automated rule checks alone do not verify. The project was AI-assisted and has not been fabricated or physically tested.
+## Engineering Scope
 
-## Resume bullet — use only if it accurately reflects your work
+- STM32F103C8T6 embedded hardware architecture.
+- Four-layer PCB schematic capture and layout.
+- 5 V buck conversion and 3.3 V LDO regulation.
+- Dual 0–10 V analog input signal conditioning.
+- Reverse-polarity and transient-voltage protection.
+- RS-485, I2C, SPI, UART, and SWD interfaces.
+- Low-side MOSFET switching and inductive-load protection.
+- Ground and power plane implementation.
+- Electrical and PCB design-rule verification.
 
-> Developed and reviewed an AI-assisted four-layer STM32 controller PCB in KiCad, integrating analog sensor front ends, RS-485, regulated power supplies, and MOSFET outputs; evaluated schematic/PCB rule-check results and documented electrical design risks.
+## Engineering Deliverables
 
-A more conservative option if your primary contribution was audit/review rather than design authoring:
+- Native KiCad schematic and PCB files.
+- Gerber and drill files.
+- Bill of materials with manufacturer part numbers.
+- Component placement files.
+- IPC netlist.
+- PCB fabrication documentation.
+- Electrical Rules Check (ERC) report.
+- Design Rules Check (DRC) report.
 
-> Reviewed and iterated an AI-generated four-layer STM32 controller design in KiCad, investigating component pinouts, power-routing constraints, protection circuitry, and ERC/DRC evidence; documented unresolved hardware limitations.
+## Design Verification
 
-## What to avoid claiming
+The Revision D reports document:
 
-- Do not say you **fabricated, assembled, commissioned, or bench-validated** this board.
-- Do not claim output-current ratings, thermal margins, or gate-drive performance were verified.
-- Do not claim embedded C firmware is implemented/tested as part of the Revision D ZIP.
-- Do not imply CAD checker results are equivalent to actual physical validation.
-- Be able to explain the design decisions and identify your actual contribution, including AI assistance when relevant.
+- Zero reported ERC errors and warnings,
+  with four check categories excluded.
+- Zero reported DRC violations.
+- Zero unconnected pads.
+- Zero reported footprint errors.
 
-## Interview prompts to practise
+The project remains at the CAD design stage.
+Automated rule checks do not establish physical
+electrical performance or production readiness.
 
-1. Explain the power path from input protection to the 5 V and 3.3 V rails.
-2. Explain the input scaling/protection for two 0–10 V channels.
-3. Explain half-duplex RS-485 and selectable termination/bias.
-4. Explain why the low-side inductive output needs flyback suppression.
-5. Explain the difference between an ERC/DRC pass and design validation.
-6. Explain the MOSFET 3.3 V gate-drive limitation and proposed improvements.
+## Future Development
+
+- Resolve outstanding MOSFET gate-drive limitations.
+- Complete electrical and thermal design reviews.
+- Fabricate and assemble the PCB.
+- Perform hardware bring-up and peripheral testing.
+- Develop and validate embedded firmware.
+- Characterize analog acquisition accuracy.
+- Verify actuator switching and current-handling capability.
