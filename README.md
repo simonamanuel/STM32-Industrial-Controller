@@ -2,7 +2,7 @@
 
 **Status: CAD-stage portfolio design (Revision D). Not fabricated, physically tested, or approved for industrial deployment.**
 
-This repository contains an **AI-assisted** electronic design project built around an STM32F103C8T6 microcontroller, with a four-layer KiCad PCB, mixed-signal sensing, low-voltage power conversion, wired communications, and two switched DC actuator channels. It showcases design-file organization, schematic/PCB review, bill-of-materials management, and documented limitations.
+This repository contains an electronic design project built around an STM32F103C8T6 microcontroller, with a four-layer KiCad PCB, mixed-signal sensing, low-voltage power conversion, wired communications, and two switched DC actuator channels. It showcases design-file organization, schematic/PCB review, bill-of-materials management, and documented limitations.
 
 ## PCB Design Gallery
 
